@@ -26,6 +26,7 @@ header h1 a {
 h1 a:hover {
 color: white;
 
+
 }
 
 nav {
@@ -60,6 +61,8 @@ nav ul li a {
 
 nav ul li a:hover {
   color: white;
+  background-color: red;
+ 
 }
 
 main {
@@ -125,6 +128,11 @@ border: solid 1px blue;
   color: red;
   text-decoration: none;
   font-weight: bold;
+}
+
+.red a:hover{
+color: #163AC9;
+
 }
 
 .grid2 img{
