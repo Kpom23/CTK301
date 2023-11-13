@@ -79,22 +79,28 @@
     width: 124px;
     height: 66px;
 }
+
 .home {
+    text-decoration: none;
+    color: #fff;
     margin: 0;
     position: absolute;
     top: 39px;
-    left: 532px;
+    left: 540px;
     font-size: inherit;
     font-weight: 400;
     font-family: inherit;
     display: inline-block;
-    width: 69px;
+    width: 106px;
     height: 23px;
 }
+
 .home:hover {
     animation: 1s ease 0s infinite normal none shadow-drop-bottom;
     opacity: 1;
+    color:#d0c5b4
 }
+
 
 @keyframes  shadow-drop-bottom {
     0% {
@@ -105,6 +111,8 @@
     }
 }
 .services {
+    text-decoration: none;
+    color: #fff;
     margin: 0;
     position: absolute;
     top: 39px;
@@ -119,6 +127,7 @@
 .services:hover {
     animation: 1s ease 0s infinite normal none shadow-drop-bottom;
     opacity: 1;
+    color:#d0c5b4
 }
 .portfolio1 {
     text-decoration: none;
@@ -133,6 +142,7 @@
 .portfolio1:hover {
     animation: 1s ease 0s infinite normal none shadow-drop-bottom;
     opacity: 1;
+    color:#d0c5b4
 }
 .contact {
     text-decoration: none;
@@ -147,8 +157,11 @@
 .contact:hover {
     animation: 1s ease 0s infinite normal none shadow-drop-bottom;
     opacity: 1;
+    color:#d0c5b4;
+    
 }
 .karen-olaya {
+
     margin: 0;
     position: absolute;
     top: 281px;
@@ -160,6 +173,7 @@
     width: 617px;
     height: 121px;
 }
+
 
 .marketing-specialis {
     margin: 0;
@@ -175,6 +189,14 @@
     width: 604px;
     height: 47px;
 }
+
+.bi-bi-linkedin {
+    position: relative;
+    top: 80%;
+    width: 180%;
+    height: 20px;
+    color: white;
+    }
 
 
 .group-child {
@@ -192,8 +214,8 @@
     left: 16px;
     display: inline-block;
     width: 142px;
-    height: 33px;
-}
+        height: 33px;}
+
 .rectangle-parent {
     position: absolute;
     top: 450px;
@@ -202,11 +224,24 @@
     height: 47px;
     font-size: 15px;
     color: #000;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
 }
 .rectangle-parent:hover {
     animation: 1s ease 0s infinite normal none shadow-drop-bottom;
     opacity: 1;
+    color: white;
+    box-shadow: 20px 20px 20px #D8D8D8;
 }
+
+.rectangle-parent:hover{
+
+    transform: translateY(-10px);
+}
+
+
+ 
 .frame4 {
     align-self: stretch;
     position: relative;
