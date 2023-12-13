@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+    <html lang="en">
+    
+ <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, width=device-width">
+   
+<link rel="stylesheet" href="global.css" />
+<link rel="stylesheet" href="index2.css" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kannada MN:wght@400&display=swap" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Karma:wght@400;600&display=swap" />
+<link rel="stylesheet" href="style.css">
+
+<title>Projects and Work</title>
+
+<body>
+
+    <img class="dscf1324-1-2-1-1" alt="" src="wp4894189.jpg"></div>
+    
+<div class="gallery-wrap">
+        <img src="fancy/leftarrow.png" id="backBtn">
+        <div class="gallery">
+
+    <div>
+         <span><img src="fancy/image1.png"></span>
+         <span><img src="fancy/image2.png"></span>
+         <span><img src="fancy/image3.png"></span>
+         <span><img src="fancy/image4.png"></span>
+       </div>
+
+       <div>
+        <span><img src="fancy/image5.png"></span>
+        <span><img src="fancy/image6.png"></span>
+        <span><img src="fancy/image7.png"></span>
+        <span><img src="fancy/image8.png"></span>
+      </div>
+
+     </div>
+     <img src="fancy/right arrow.png" id="nextBtn">
+</div>  
+
+<script>
+    let scrollContainer = document. querySelector(".gallery");
+    let backBtn = document.getElementById("backBtn");
+    let nextBtn = document.getElementById("nextBtn");
+
+    scrollContainer.addEventListener("wheel", (evt) => {
+        evt.preventDefault ();
+        scrollContainer.scrollLeft += evt.deltaY;
+        scrollContainer.style.scrollBehavior = "auto";
+    });
+
+    nextBtn.addEventListener("click", ()=>{
+        scrollContainer.style.scrollBehavior = "smooth";
+        scrollContainer.scrollLeft += 900;  
+
+    });
+
+    backtBtn.addEventListener("click", ()=>{
+        scrollContainer.style.scrollBehavior = "smooth";
+        scrollContainer.scrollLeft -= 900;  
+
+    });
+
+</script>
+
+<main class="frame">
+   <div class="frame1">
+    <h3 class="frame2">
+   </div>     
+</main>
+
+
+<div class="frame3">
+<header class="frame4"> 
+     <header class="frame-child">
+        <nav class="home-parent">
+          <a href="index.html"class="home">Home</a>    
+          <a href="#" class="services">Services</a>
+          <a href="index2.html" class="portfolio1">Portfolio </a>
+          <a href="Index3.html" class="contact">Contact</a>
+          <a href="https://www.linkedin.com/in/karenolayamur23/" target="_blank" class="bi bi-linkedin"></a>
+     </nav>
+</header>
+
+    <div class="ko">KO</div>   
+    
+<section>
+    <h2 class="karen-olaya">Projects</h2>
+</section>
+    <h3 class="marketing-specialis">I draw inspiration for my work from the serene elegance of minimalist art, channeling simplicity. My vision centers around implementing technologies to streamline and automate design platforms, aiming for optimization at every step.</h3>
+    <div class="rectangle-parent">
+<section
+
+class="group-child">
+
+</section>
+    <div class="download-resume">Previous Projects</div>
+
+ </body>
+</html>
